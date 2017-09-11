@@ -17,7 +17,7 @@ enum Result<T> {
     case failure(Error)
 }
 
-public enum LocationServiceError: Error {
+enum LocationServiceError: Error {
     case malformedURL
     case unexpectedHttpResponse
 }
