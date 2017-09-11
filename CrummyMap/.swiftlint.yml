@@ -1,0 +1,13 @@
+disabled_rules:
+  - conditional_binding_cascade
+  - line_length
+  - trailing_comma # doesn't work well as of version 0.13.1
+  - variable_name
+  - vertical_whitespace
+  - weak_delegate # too many false positives (or negatives?)
+
+statement_position:
+  statement_mode: uncuddled_else
+
+trailing_whitespace:
+  ignores_empty_lines: true
